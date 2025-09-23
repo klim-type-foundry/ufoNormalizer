@@ -1,5 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/unified-font-object/ufoNormalizer/badge.svg?branch=master&service=github)](https://coveralls.io/github/unified-font-object/ufoNormalizer?branch=master)
-![Python Versions](https://img.shields.io/badge/python-3.7%2C%203.8%2C%203.9%2C%203.10%2C%203.11-blue.svg)
+![Python Versions](https://img.shields.io/badge/python-3.9%2C%203.10%2C%203.11%2C%203.12%2C%203.13-blue.svg)
 [![PyPI Version](https://img.shields.io/pypi/v/ufonormalizer.svg)](https://pypi.python.org/pypi/ufonormalizer)
 
 # ufoNormalizer
@@ -53,7 +53,7 @@ Note: if you are working on a UFO within RoboFont and run ufoNormalizer on that 
 
 ### Automating via Git hooks
 
-Beyond basic command-line usage, ufoNormalizer can be used in an automated manner. 
+Beyond basic command-line usage, ufoNormalizer can be used in an automated manner.
 
 Of course, you can automate it to run from a shell script or a Python script. One useful possibility is using it within a Git hook.
 
@@ -83,4 +83,4 @@ done
 
 Now, each time you commit, all `.ufo`s in your Git project will be normalized before being recorded by Git.
 
-Because this hook is setup within the immediate project, this configuration will only apply to the immediate project. You will need to update each project to use this Git hook if you wish to normalize UFOs elsewhere. If you want this hook to be added to all future git projects, you can [configure a global git template](https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook). However, this approach probably doesn't make sense if you also work on projects that don't involve UFO files. 
+Because this hook is setup within the immediate project, this configuration will only apply to the immediate project. You will need to update each project to use this Git hook if you wish to normalize UFOs elsewhere. If you want this hook to be added to all future git projects, you can [configure a global git template](https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook). However, this approach probably doesn't make sense if you also work on projects that don't involve UFO files.
